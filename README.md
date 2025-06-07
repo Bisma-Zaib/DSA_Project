@@ -1,7 +1,7 @@
-Project Overview
+Project Overview: 
 This Expense Tracker is a Java application that helps users manage their personal finances by tracking expenses, recurring payments, and income. The system uses an AVL tree data structure to efficiently store and retrieve transactions sorted by amount, providing fast search, insertion, and deletion operations.
 
-Key Features
+Key Features: 
 Transaction Management
 Regular Expenses: Track one-time expenses with category, description, amount, and date
 
@@ -20,7 +20,6 @@ Undo Functionality: Revert the last transaction with a single command
 
 Search Capability: Quickly find transactions by amount
 
-Technical Highlights
 Data Structures:
 
 AVL Tree for transaction storage (O(log n) operations)
@@ -54,29 +53,3 @@ Undo mistakes
 
 Search for specific transactions
 
-Installation & Requirements
-Requires Java 8 or higher
-
-Simply clone the repository and run Main.java
-
-Why This Project?
-This application demonstrates:
-
-Practical implementation of advanced data structures (AVL trees)
-
-Clean object-oriented design principles
-
-Real-world problem solving for personal finance management
-
-User-friendly console interface
-
-Future Enhancements
-Graphical user interface
-
-Data persistence (saving to file/database)
-
-Budget categories and spending limits
-
-Reports and visualizations
-
-Multi-user support
